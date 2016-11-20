@@ -1,7 +1,18 @@
 const board = require('./board.js');
 const chess = require('chess.js').Chess();
 
-const test =
+const randomBitstring = () => {
+    
+};
+
+const zobrist = () => {
+  // fill a table of random numbers/bitstrings
+  let table[64][board.pieces.length];
+  _.each(table, (v, k, o) => {
+    _.each(table[k], random_bitstring())
+  });
+
+}
 
 module.exports = {
     response: (message, body) => {
