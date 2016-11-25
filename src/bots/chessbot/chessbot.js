@@ -1,18 +1,19 @@
 const board = require('./board.js');
 const chess = require('chess.js').Chess();
+// const sequelize = require('sequelize').Sequelize(config.get(db:dbParams));
 
-const randomBitstring = () => {
-    
+const alphaNumeric = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+
+
+const randomBitstring = (length, chars) => {
+    let result = '';
+    return result;
 };
 
 const zobrist = () => {
-  // fill a table of random numbers/bitstrings
-  let table[64][board.pieces.length];
-  _.each(table, (v, k, o) => {
-    _.each(table[k], random_bitstring())
-  });
 
-}
+};
 
 module.exports = {
     response: (message, body) => {
