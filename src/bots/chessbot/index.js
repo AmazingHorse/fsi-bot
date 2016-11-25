@@ -1,8 +1,8 @@
 'use strict';
 
 const chessbot = require('./chessbot.js');
-const config = require('../../config.js');
-const logger = require('../../log.js');
+const config = require('../../util/config.js').nconf;
+const logger = require('../../util/log.js').logger;
 
 module.exports = {
     onChess: (message, body) => {

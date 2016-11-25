@@ -2,13 +2,8 @@ const board = require('./board.js');
 const chess = require('chess.js').Chess();
 // const sequelize = require('sequelize').Sequelize(config.get(db:dbParams));
 
-const alphaNumeric = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+const randomBitstring = () => {
 
-
-
-const randomBitstring = (length, chars) => {
-    let result = '';
-    return result;
 };
 
 const zobrist = () => {
